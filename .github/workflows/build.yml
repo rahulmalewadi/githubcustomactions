@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-job:
+jobs:
   build:
     name: build and test
     runs-on: ${{matrix.os}}
